@@ -24,7 +24,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 20px 0;
+  margin: 20px 0 10px 0;
 
   .account-form__section-divider__text {
     font-family: OpenSans-Regular;
@@ -58,12 +58,51 @@
   width: 100%;
   max-width: 260px;
 
-  &.account-form__select {
+  &.account-form__select, &[type='date'] {
     max-width: 160px;
     background: url('../../assets/icons/select-dropdown-icon.svg') no-repeat right center;
 
     appearance: none;
   }
+  &[type='date'] {
+    padding: 5px;
+  }
+
+  &.account-form__textarea {
+    min-height: 90px;
+    resize: none;
+  }
 
   margin-bottom: 15px;
+}
+
+.account-form__checkbox {
+  margin: -5px 0 15px;
+
+
+
+  display: flex;
+
+  .account-form__checkbox-label {
+    font-family: OpenSans-Regular;
+    font-size: 10px;
+    color: $darkerGrey;
+    line-height: 18px;
+  }
+
+  .account-form__checkbox-input[type="checkbox"] {
+    display: none;
+  }
+
+  .account-form__checkbox-input[type="checkbox"] + span {
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    cursor: pointer;
+    background: url('../../assets/icons/checkbox-off.svg') no-repeat;
+  }
+
+  .account-form__checkbox-input[type="checkbox"]:checked + span {
+    background: url('../../assets/icons/checkbox-on.svg') no-repeat;
+  }
 }
