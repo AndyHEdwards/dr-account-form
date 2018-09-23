@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10.9147453,8.33594476 C10.9147453,8.07031944 10.8054791,7.81250663 10.6259702,7.63281892 L5.53728485,2.54687535 C5.35777601,2.35937513 5.10021985,2.25 4.83485896,2.25 C4.56949807,2.25 4.31194191,2.35937513 4.13243307,2.54687535 L3.53927342,3.13281355 C3.35976458,3.31250127 3.25049833,3.57031407 3.25049833,3.83593939 C3.25049833,4.10156471 3.35976458,4.35937751 3.53927342,4.54687774 L7.33237325,8.33594476 L3.53927342,12.1328243 C3.35976458,12.312512 3.25049833,12.5703248 3.25049833,12.8359501 C3.25049833,13.1015754 3.35976458,13.3593882 3.53927342,13.5468885 L4.13243307,14.1328267 C4.31194191,14.3125144 4.56949807,14.4218895 4.83485896,14.4218895 C5.10021985,14.4218895 5.35777601,14.3125144 5.53728485,14.1328267 L10.6259702,9.0468831 C10.8054791,8.85938288 10.9147453,8.60157007 10.9147453,8.33594476 L10.9147453,8.33594476 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="element/input/medium" transform="translate(-171.000000, -1.000000)">
+            <g id="Group" transform="translate(171.000000, 1.000000)">
+                <g id="swatch/primary" fill="#FF2C6F">
+                    <rect id="Rectangle" x="0" y="0" width="28" height="28"></rect>
+                </g>
+                <g id="@Icons/Chevron/down" transform="translate(22.000000, 8.000000) rotate(90)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="swatch/lightest" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="evenodd">
+                        <rect id="Rectangle" x="0" y="0" width="38" height="38"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
