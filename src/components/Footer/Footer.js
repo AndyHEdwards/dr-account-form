@@ -10,7 +10,7 @@ const Footer = (props) => {
         <p className='footer__subheading'>Per month. 0% APR, Tax Inc.</p>
       </div>
       <div className='footer__submit'>
-        <button className='footer__submit__button'>Confirm</button>
+        <button className='footer__submit__button' onClick={props.handleSubmit}>Confirm</button>
       </div>
     </div>
   );
