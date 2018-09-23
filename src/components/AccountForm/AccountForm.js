@@ -15,7 +15,8 @@ const AccountForm = (props) => {
         </div>
 
         <label className='account-form__label'>Title</label>
-        <select className='account-form__input account-form__select' name='title' value={props.data.title} onChange={props.handleInputChange}>
+        <select className={'account-form__input account-form__select' + (!!props.data.title ? ' valid' : '')} name='title' value={props.data.title} onChange={props.handleInputChange}>
+          <option></option>
           <option value="mr">Mr</option>
           <option value="mrs">Mrs</option>
           <option value="miss">Miss</option>
@@ -23,7 +24,7 @@ const AccountForm = (props) => {
 
         <label className='account-form__label'>Frist Name</label>
         <input
-          className='account-form__input'
+          className={'account-form__input' + (!!props.data.firstName ? ' valid' : '')}
           name='firstName'
           value={props.data.firstName}
           onChange={props.handleInputChange}
@@ -31,7 +32,7 @@ const AccountForm = (props) => {
 
         <label className='account-form__label'>Last Name</label>
         <input
-          className='account-form__input'
+          className={'account-form__input' + (!!props.data.lastName ? ' valid' : '')}
           name='lastName'
           value={props.data.lastName}
           onChange={props.handleInputChange}
@@ -46,7 +47,7 @@ const AccountForm = (props) => {
 
         <label className='account-form__label'>Enployee ERN</label>
         <input
-          className='account-form__input'
+          className={'account-form__input' + (!!props.data.ern ? ' valid' : '')}
           name='ern'
           value={props.data.ern}
           onChange={props.handleInputChange}
@@ -67,7 +68,7 @@ const AccountForm = (props) => {
 
         <label className='account-form__label'>Premise address</label>
         <textarea
-          className='account-form__input account-form__textarea'
+          className={'account-form__input account-form__textarea' + (!!props.data.premiseAddress ? ' valid' : '')}
           name='premiseAddress'
           value={props.data.premiseAddress}
           onChange={props.handleInputChange}
@@ -82,7 +83,7 @@ const AccountForm = (props) => {
 
         <label className='account-form__label'>Policy start date</label>
         <input
-          className='account-form__input'
+          className={'account-form__input' + (!!props.data.policyStartDate ? ' valid' : '')}
           type='date'
           name='policyStartDate'
           value={props.data.policyStartDate}
@@ -98,7 +99,7 @@ const AccountForm = (props) => {
 
         <label className='account-form__label'>Account password</label>
         <input
-          className='account-form__input'
+          className={'account-form__input' + (!!props.data.password ? ' valid' : '')}
           type='password'
           name='password'
           value={props.data.password}
@@ -107,7 +108,7 @@ const AccountForm = (props) => {
 
         <label className='account-form__label'>Confirm account password</label>
         <input
-          className='account-form__input'
+          className={'account-form__input' + (!!props.data.passwordConfirmation ? ' valid' : '')}
           type='password'
           name='passwordConfirmation'
           value={props.data.passwordConfirmation}

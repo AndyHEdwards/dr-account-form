@@ -73,6 +73,10 @@
     resize: none;
   }
 
+  &.valid {
+    border-color: $green;
+  }
+
   margin-bottom: 15px;
 }
 

@@ -9,6 +9,7 @@ What would make this process easier in the future?
 What would you do differently to your implementation if you had more time?
   - Added form field validations
   - Created TextField components that can handle the updating of their own values, as long as their validations.
+  - Disable form until all validations have passed.
   - A dedicated typography stylesheet to encapsulate the font size and family styles.
   - Generally slightly more in depth component composition eg a dedicated button component for the form submission.
   - Handled form Success / Error state. (Due to CORS problems and not getting the backend running locally I never got to a stage of getting a successful response from the API)
