@@ -1,0 +1,49 @@
+@import 'styles/_colours.scss';
+
+#footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 6px 20px;
+  background-image: linear-gradient(90deg, $primary  60%, #FF644A 100%);
+
+  color: $white;
+}
+
+.footer__subheading {
+  font-family: OpenSans-Regular;
+  font-size: 10px;
+  margin: 0;
+}
+
+.footer__total {
+  font-family: OpenSans-ExtraBold;
+  font-size: 26px;
+  line-height: 26px;
+  margin: 0px 0;
+}
+
+.footer__submit__button {
+  outline: none;
+  border: none;
+
+  padding: 6px 25px;
+  border-radius: 3px;
+  background: url('../../assets/icons/right-arrow.svg') no-repeat right 5px top 11px;
+  background-color: $secondary;
+  cursor: pointer;
+
+  color: $white;
+  font-family: OpenSans-Bold;
+  font-size: 16px;
+
+  &:hover {
+    background-color: darken($secondary, 5%);
+  }
+
+  &:active {
+    background-color: lighten($secondary, 2%);
+  }
+
+}

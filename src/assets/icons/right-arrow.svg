@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="15px" viewBox="0 0 11 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-right</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12.4147453,7.58594476 C12.4147453,7.32031944 12.3054791,7.06250663 12.1259702,6.88281892 L7.03728485,1.79687535 C6.85777601,1.60937513 6.60021985,1.5 6.33485896,1.5 C6.06949807,1.5 5.81194191,1.60937513 5.63243307,1.79687535 L5.03927342,2.38281355 C4.85976458,2.56250127 4.75049833,2.82031407 4.75049833,3.08593939 C4.75049833,3.35156471 4.85976458,3.60937751 5.03927342,3.79687774 L8.83237325,7.58594476 L5.03927342,11.3828243 C4.85976458,11.562512 4.75049833,11.8203248 4.75049833,12.0859501 C4.75049833,12.3515754 4.85976458,12.6093882 5.03927342,12.7968885 L5.63243307,13.3828267 C5.81194191,13.5625144 6.06949807,13.6718895 6.33485896,13.6718895 C6.60021985,13.6718895 6.85777601,13.5625144 7.03728485,13.3828267 L12.1259702,8.2968831 C12.3054791,8.10938288 12.4147453,7.85157007 12.4147453,7.58594476 L12.4147453,7.58594476 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="element/button/medium/ui" transform="translate(-191.000000, -14.000000)">
+            <g id="@Icons/Chevron/right" transform="translate(187.000000, 13.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Shape" fill="#777777" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <g id="swatch/lightest" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="evenodd">
+                    <rect id="Rectangle" x="0" y="0" width="38" height="38"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
