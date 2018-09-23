@@ -1,0 +1,20 @@
+@import 'styles/_colours.scss';
+
+#nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 55px;
+  padding: 20px;
+  box-sizing: border-box;
+
+  background: $primary;
+}
+
+.nav-bar__call-us, .nav-bar__call-us a {
+  font-family: OpenSans-Bold;
+  font-size: 14px;
+  color: $white;
+  text-decoration: none;
+}
